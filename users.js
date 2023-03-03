@@ -1,3 +1,4 @@
+//deifining function for show password
 function showPass() {
   var x = document.getElementById("pword");
   if (x.type === "password") {
@@ -7,6 +8,7 @@ function showPass() {
   }
 }
 
+//defining user array
 function users() {
   var usernames = ["Ishini"];
   var passwords = ["1234"];
