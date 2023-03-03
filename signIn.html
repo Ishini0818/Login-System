@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Sign In</title>
+    <script src="users.js"></script>
+  </head>
+  <body id="background">
+    <nav class="nav-bar">
+      <input type="button" onclick="users()" id="signInBtn" value="Sign In" />
+    </nav>
+    <center>
+      <div class="SignIn">
+        <img src="Assets\welcome.png" /><br /><br />
+        <form name="login" method="post" action="target.html">
+          <label for="username">User Name: </label><br />
+          <input type="text" id="username" /><br /><br /><br />
+          <label for="pword">Password: </label><br />
+          <input type="password" id="pword" /><br />
+          <input type="checkbox" onclick="showPass()" />Show Password
+          <br /><br />
+          <input type="button" onclick="users()" id="logInBtn" value="log In" />
+
+          <br /><br />
+
+          <label>Don't have an Account? </label>
+          <a href="SignUp.html">Sign up</a>
+        </form>
+      </div>
+    </center>
+  </body>
+</html>
